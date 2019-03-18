@@ -1,7 +1,118 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <style>
+    </style>
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Alexander Hambley</span>
+    </nav>
+
+<div class="container-fluid" style="padding-top: 15px;">
+    <div class="row">
+        <div class="col-sm-auto">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="res/img/me.jpg" alt="Picture of me">
+                <div class="card-body">
+                    <h4 class="card-title">Alexander Hambley</h4>
+                    <p class="card-text"> Hi, I am a third year Computer Science student studying at the University of Nottingham. 
+                                          This is a site to showcase the projects I have completed.
+                    </p>
+                    <a href="#" class="btn btn-primary">Download CV</a>
+                </div>
+
+                <div id="list-example" class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action" href="#list-item-android">Android Development</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-web-dev">Web Development</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-infovis">InfoVis</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-java-c">Java and C</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-leadership">Leadership</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4 id="list-item-android">Android Development</h4>
+            <p> I'm familiar with mobile development methodologies, design patterns, power management and core Android 
+                components, including activities, fragments, services, broadcast receivers and content providers </p>
+            <h5> Apps Developed: </h5>
+            <div class="row">
+                <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="res/img/android/finger-painter.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Finger Painter</h6>
+                            <p class="card-text">Essentially Paint but for Android. Allows the use of custom colours and various shapes. </p>
+                            <a href="#" class="btn btn-primary">APK</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="res/img/android/runtracker.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">RunTracker</h6>
+                            <p class="card-text">Similar to Strava, the app will track a user's walk or run. 
+                                The apps provides the user with the ability to see the run plotted on Google Maps, and in graph format. 
+                                <br> 
+                                The users can control how often the GPS is polled.</p>
+                            <a href="#" class="btn btn-primary">APK</a>                         
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="res/img/android/recipe-book.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Recipe Book</h6>
+                            <p class="card-text">Uses a content provider to pull data from a SQLite database. </p>
+                                <a href="#" class="btn btn-primary">APK</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="res/img/android/dissertation.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Dissertation Prototype</h6>
+                            <p class="card-text">This is a prototype application developed for my dissertation. 
+                                It was produced as a result of the findings of my dissertation. <br> 
+                                My dissertation is explained below. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                    <div class="card" style="width: 14rem;">
+                        <img class="card-img-top" src="res/img/android/mp3-player.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">MP3 Player</h6>
+                            <p class="card-text">Simple MP3 Player. Plays and stops a song, as well as supporting notification functionality. </p>
+                            <a href="#" class="btn btn-primary">APK</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <h4 id="list-item-web-dev">Web Development</h4>
+                <p> I have a lot of experience with PHP, JavaScript, HTML, CSS and MySQL. 
+                    I led a very successful group project where a webtool was developed for the University. </p>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
 </html>
