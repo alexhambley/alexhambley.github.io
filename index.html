@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    
-    <style>
-    </style>
 
+    <style>
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">Alexander Hambley</span>
     </nav>
 
 <div class="container-fluid" style="padding-top: 15px;">
     <div class="row">
         <div class="col-sm-auto">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="res/img/me.jpg" alt="Picture of me">
-                <div class="card-body">
-                    <h4 class="card-title">Alexander Hambley</h4>
-                    <p class="card-text"> Hi, I am a third year Computer Science student studying at the University of Nottingham. 
-                                          This is a site to showcase the projects I have completed.
-                    </p>
-                    <a href="#" class="btn btn-primary">Download CV</a>
-                </div>
+            <div class="sticky">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="res/img/me.jpg" alt="Picture of me">
+                    <div class="card-body">
+                        <h4 class="card-title">Alexander Hambley</h4>
+                        <p class="card-text"> Hi, I am a third year Computer Science student studying at the University of Nottingham. 
+                            This is a site to showcase the projects I have completed.
+                        </p>
+                        <a href="#" class="btn btn-primary">Download CV</a>
+                        <a href="https://www.linkedin.com/in/alexanderhambley/" class="btn btn-primary">LinkedIn</a>
 
-                <div id="list-example" class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action" href="#list-item-android">Android Development</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-web-dev">Web Development</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-infovis">InfoVis</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-java-c">Java and C</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-leadership">Leadership</a>
+                    </div>
+
+                    <div id="list-example" class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action" href="#list-item-android">Android Development</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-web-dev">Web Development</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-infovis">InfoVis</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-java-c">Java and C</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-leadership">Leadership</a>
+                    </div>
                 </div>
             </div>
         </div>
-
         <div class="col">
             <h4 id="list-item-android">Android Development</h4>
             <p> I'm familiar with mobile development methodologies, design patterns, power management and core Android 
@@ -102,11 +110,32 @@
                     </div>
                 </div>
                 </div>
-
+                <hr>
                 <h4 id="list-item-web-dev">Web Development</h4>
                 <p> I have a lot of experience with PHP, JavaScript, HTML, CSS and MySQL. 
-                    I led a very successful group project where a webtool was developed for the University. </p>
+                    I led a very successful group project where a web-tool was developed for the University. </p>
 
+                <img src="res/img/group-project/gp-ex-1.jpg" class="img-fluid" alt="Responsive image">
+
+                <p> The site is designed for Food Science students, especially those in their penultimate year. 
+                    Students can see lists of potential jobs, as well as use an online tool to discover jobs that match their skills.  </p>
+
+                <img src="res/img/group-project/gp-ex-2.jpg" class="img-fluid" alt="Responsive image">
+
+                <p> The site was built to match the theme of the University and be completely responsive. </p>
+
+                <img src="res/img/group-project/gp-ex-3.jpg" class="img-fluid" alt="Responsive image">
+
+                <p> It interfaces with a MySQL database, giving the admin to ability to easily modify all elements of the database without having to use SQL.  </p>
+
+                <img src="res/img/group-project/gp-ex-4.jpg" class="img-fluid" alt="Responsive image">
+
+                <div class="d-flex justify-content-center">
+                    <a href="https://github.com/alexhambley/grp" class="btn btn-info" role="button" style="margin-right: 15px">View on GitHub</a>
+                    <a href="https://www.nottingham.ac.uk/~sazintra/public/cfgc/" class="btn btn-info" role="button">View Live Site</a>
+                </div>
+
+                <hr>
 
             </div>
         </div>
