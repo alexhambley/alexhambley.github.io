@@ -1,7 +1,7 @@
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 10px;
+    padding-bottom: 10px;
 }
 
 div.cardout {
@@ -27,5 +27,12 @@ div.cardout {
     div.card.border-primary.mb-3 {
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 649px) {
+    div.sticky {
+        overflow-y: auto; 
+        max-height: 100vh;
     }
 }
