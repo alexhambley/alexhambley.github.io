@@ -3,19 +3,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
-    <link rel="stylesheet" href="css/custom.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
 
+    <style>
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
+        }
+
+        div.cardout {
+            padding-left:15px; 
+            padding-right: 5px; 
+            padding-top: 5px; 
+            padding-bottom: 5px;
+        }
+
+        @media only screen and (max-width: 648px) {
+            div.row {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div.card.border-primary.mb-3 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div.cardout {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media only screen and (min-width: 649px) {
+            div.sticky {
+                overflow-y: auto; 
+                max-height: 100vh;
+            }
+} 
+    </style>
+</head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">Alexander Hambley</span>
     </nav>
 
-<div class="container-fluid" style="padding-top: 10px">
+<div class="container-fluid" style="padding-top: 15px;">
     <div class="row">
         <div class="col-sm-auto">
             <div class="sticky">
@@ -25,19 +60,16 @@
                         <h4 class="card-title">Alexander Hambley</h4>
                         <p class="card-text"> 
                             Hi, I'm a Web Developer intern at HeX Productions, and a first - class Computer Science 
-                            graduate from the University of Nottingham.
-                        </p>
+                            graduate from the University of Nottingham. </p>
                         <p class="card-text"> 
-                            I'm soon to be an MSc Systems Software Engineering student at UCL.
-                        </p>
-
+                            I'm soon to be an MSc Systems Software Engineering student at UCL. </p>
                         <a href="res/docs/alexhambley-cv.pdf" class="btn btn-primary">Download CV</a>
                         <a href="alexhambley-cv.html" class="btn btn-primary">HTML CV</a>
                         <p></p>
                         <a href="https://www.linkedin.com/in/alexanderhambley/" class="btn btn-primary">LinkedIn</a>
                     </div>
             
-                    <div id="list-example" class="list-group list-group-flush">
+                    <div id="list" class="list-group list-group-flush">
                         <a class="list-group-item list-group-item-action" href="#list-item-android">Android Development</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-web-dev">Web Development</a>
                         <a class="list-group-item list-group-item-action" href="#list-item-infovis">Data Science and InfoVis</a>
@@ -47,16 +79,14 @@
                 </div>
             </div>
         </div>
-
         <div class="col">
             <h4 id="list-item-android">Android Development</h4>
             <p> I'm familiar with mobile development methodologies, design patterns, power management and core Android 
                 components, including activities, fragments, services, broadcast receivers and content providers </p>
+
             <h5> Apps Developed: </h5>
-
             <div class="row">
-
-                <div class="cardout"style="padding-left:5px; padding-top: 5px; ">
+                <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
                         <img class="card-img-top" src="res/img/android/finger-painter.png" alt="Card image cap">
                         <div class="card-body">
@@ -67,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="cardout" style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
                         <img class="card-img-top" src="res/img/android/runtracker.png" alt="Card image cap">
                         <div class="card-body">
@@ -81,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="cardout" style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
                         <img class="card-img-top" src="res/img/android/recipe-book.png" alt="Card image cap">
                         <div class="card-body">
@@ -92,7 +122,7 @@
                     </div>
                 </div>
 
-                <div class="cardout" style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
                         <img class="card-img-top" src="res/img/android/dissertation.png" alt="Card image cap">
                         <div class="card-body">
@@ -104,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="cardout" style="padding-left:5px; padding-top: 5px;">
+                <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
                         <img class="card-img-top" src="res/img/android/mp3-player.png" alt="Card image cap">
                         <div class="card-body">
@@ -114,12 +144,13 @@
                         </div>
                     </div>
                 </div>
-                </div>
-                <hr>
+            </div>
+            
+            <hr>
 
-                <h4 id="list-item-web-dev">Web Development</h4>
-                <p> I have a lot of experience with PHP, JavaScript, HTML, CSS and MySQL. 
-                    I led a very successful group project where a web-tool was developed for the University. </p>
+            <h4 id="list-item-web-dev">Web Development</h4>
+            <p> I have a lot of experience with PHP, JavaScript, HTML, CSS and MySQL. 
+                I led a very successful group project where a web-tool was developed for the University. </p>
 
                 <img src="res/img/group-project/gp-ex-1.jpg" class="img-fluid" alt="Responsive image">
 
@@ -160,53 +191,50 @@
                 <h4 id="list-item-hci-sr">HCI and Social Robotics</h4>
                 
                 <div class="row">
-                        <div class="col-sm-auto">
-                            <div class="card border-primary mb-3" style="width: 10rem;">
-                                    <img class="card-img-top" src="res/img/android/dissertation.png" alt="Card image cap">  
-                            </div>
+                    <div class="col-sm-auto">
+                        <div class="card border-primary mb-3" style="width: 10rem;">
+                                <img class="card-img-top" src="res/img/android/dissertation.png" alt="Card image cap">  
                         </div>
-                        <div class="col">
-                            <p> HCI has been the primary area of my research during University. 
-                                    My undergraduate dissertation was focused on social media addiction, and I achieved a high first (84%). 
-                                    The dissertation looked at:
-                                    <ul style="list-style-type:disc;">
-                                        <li> The causes of social media addiction </li>
-                                        <li> Behavioural addictions (such as gambling) and compulsion </li>
-                                        <li> Predispositions, such as mental health</li>
-                                        <li> Social Networking Site (SNS) addiction and Internet Gaming Disorder (IGD) </li>
-                                        <li> Persuasive software design </li>
-                                        <li> Current considerations by technology companies </li>
-                                    </ul>
-                                </p>
-                                <p> A number of studies were conducted, including a questionnaire, a focus group, and a cooperative evalution. 
-                                    Following these studies, three prototypes were produced. A screenshot of the third is shown. 
-                                </p>
-                        </div>
+                    </div>
+                    <div class="col">
+                        <p> HCI has been the primary area of my research during University. 
+                                My undergraduate dissertation was focused on social media addiction, and I achieved a high first (84%). 
+                                The dissertation looked at:
+                            <ul style="list-style-type:disc;">
+                                <li> The causes of social media addiction </li>
+                                <li> Behavioural addictions (such as gambling) and compulsion </li>
+                                <li> Predispositions, such as mental health</li>
+                                <li> Social Networking Site (SNS) addiction and Internet Gaming Disorder (IGD) </li>
+                                <li> Persuasive software design </li>
+                                <li> Current considerations by technology companies </li>
+                            </ul>
+                        </p>
+                        <p> A number of studies were conducted, including a questionnaire, a focus group, and a cooperative evalution. 
+                            Following these studies, three prototypes were produced. A screenshot of the third is shown. 
+                        </p>
+                    </div>
                 </div>
+
+                <div style="text-align: center">
+                        <img class="img-fluid rounded" src="res/img/robot-hci/r-group.jpg" style="width: 70%">  
+                </div>
+                <br>
 
                 <p> I've also had the opportunity to attend a social robotics event at the University of Twente, 
                     where I prototyped social robots for interaction with autistic children, as well as the gamification of mathematics.
                 </p>
 
                 <div class="row">
-                    <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
-                        <div class="card border-primary mb-3" style="width: 20rem;">
-                            <img class="card-img-top" src="res/img/robot-hci/r-group.jpg" alt="Card image cap">  
-                        </div>
+                    <div class="col" style="text-align: center">
+                        <img class="img-fluid rounded" src="res/img/robot-hci/r-ram.jpg" style="width: 70%">  
                     </div>
-                    
-                    <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
-                            <div class="card border-primary mb-3" style="width: 20rem;">
-                                <img class="card-img-top" src="res/img/robot-hci/r-ram.jpg" alt="Card image cap">  
-                            </div>
-                        </div>
-
-                    <div style="padding-left:5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
-                        <div class="card border-primary mb-3" style="width: 20rem;">
-                            <img class="card-img-top" src="res/img/robot-hci/r-pepper.jpg" alt="Card image cap">  
-                        </div>
+                    <div class="col" style="text-align: center">
+                        <img class="img-fluid rounded" src="res/img/robot-hci/r-pepper.jpg" style="width: 70%">  
                     </div>
                 </div>
+
+
+
             </div>
         </div>
     </div>
