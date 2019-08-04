@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <title>Alexander Hambley's Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <style>
+        h1.heading-bar {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h2.name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        h2.section-header {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
         div.sticky {
             position: -webkit-sticky;
             position: sticky;
@@ -42,12 +68,13 @@
                 overflow-y: auto; 
                 max-height: 100vh;
             }
-} 
+        } 
     </style>
+
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <span class="navbar-brand mb-0 h1">Alexander Hambley</span>
+        <span class="navbar-brand mb-0 h1"> <h1 class="heading-bar"> Alexander Hambley's Portfolio </h1> </span>
     </nav>
 
 <div class="container-fluid" style="padding-top: 15px;">
@@ -57,16 +84,14 @@
                 <div class="card border-primary mb-3" style="width: 18rem;">
                     <img class="card-img-top" src="res/img/me.jpg" alt="Picture of me">
                     <div class="card-body">
-                        <h4 class="card-title">Alexander Hambley</h4>
+                        <h2 class="card-title name">Alexander Hambley</h2>
                         <p class="card-text"> 
                             Hi, I'm a Web Developer intern at HeX Productions, and a first-class Computer Science 
                             graduate from the University of Nottingham. </p>
                         <p class="card-text"> 
                             I'm soon to be an MSc Systems Software Engineering student at UCL. </p>
-                        <a href="res/docs/alexhambley-cv.pdf" class="btn btn-primary">Download CV</a>
                         <a href="alexhambley-cv.html" class="btn btn-primary">HTML CV</a>
-                        <p></p>
-                        <a href="https://www.linkedin.com/in/alexanderhambley/" class="btn btn-primary">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/alexanderhambley/" class="btn btn-info">LinkedIn</a>
                     </div>
             
                     <div id="list" class="list-group list-group-flush">
@@ -81,53 +106,53 @@
         </div>
 
         <div class="col">
-            <h4 id="list-item-android">Android Development</h4>
+            <h2 class="section-header" id="list-item-android">Android Development</h2>
             <p> I'm familiar with mobile development methodologies, design patterns, power management and core Android 
                 components, including activities, fragments, services, broadcast receivers and content providers </p>
 
-            <h5> Apps Developed: </h5>
+            <h3> Apps Developed: </h3>
             <div class="row">
                 <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
-                        <img class="card-img-top" src="res/img/android/finger-painter.png" alt="Card image cap">
+                        <img class="card-img-top" src="res/img/android/finger-painter.png" alt="A sample image of the Finger Painter app">
                         <div class="card-body">
-                            <h6 class="card-title">Finger Painter</h6>
+                            <h4 class="card-title">Finger Painter</h4>
                             <p class="card-text">This application is essentially Paint, but for Android. It allows the use of custom colours and various shapes. </p>
-                            <a href="https://drive.google.com/open?id=11VdiiBw5sKIdfjFwm2oVqfCB4w0qwJQY" class="btn btn-primary">APK</a>
+                            <a href="https://drive.google.com/open?id=11VdiiBw5sKIdfjFwm2oVqfCB4w0qwJQY" class="btn btn-primary">Download APK</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
-                        <img class="card-img-top" src="res/img/android/runtracker.png" alt="Card image cap">
+                        <img class="card-img-top" src="res/img/android/runtracker.png" alt="A sample image of the Running Tracker app">
                         <div class="card-body">
-                            <h6 class="card-title">RunTracker</h6>
+                            <h4 class="card-title">RunTracker</h4>
                             <p class="card-text">Similar to Strava, the app will track a user's walk or run. 
                                 The apps provides the user with the ability to see the run plotted on Google Maps, and in graph format. 
                                 <br> 
                                 The users can control how often the GPS is polled.</p>
-                            <a href="https://drive.google.com/open?id=1EWSkAnVdPReXmsb5_ywc2sodpYLy5-91" class="btn btn-primary">APK</a>                         
+                            <a href="https://drive.google.com/open?id=1EWSkAnVdPReXmsb5_ywc2sodpYLy5-91" class="btn btn-primary">Download APK</a>                         
                         </div>
                     </div>
                 </div>
 
                 <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
-                        <img class="card-img-top" src="res/img/android/recipe-book.png" alt="Card image cap">
+                        <img class="card-img-top" src="res/img/android/recipe-book.png" alt="A sample image of the Recipe Book app">
                         <div class="card-body">
-                            <h6 class="card-title">Recipe Book</h6>
+                            <h4 class="card-title">Recipe Book</h4>
                             <p class="card-text">This application uses a content provider to pull data from a SQLite database. </p>
-                                <a href="https://drive.google.com/open?id=1f3GHWvpu_gv4nUvrgEflAg7TLMThrUdX" class="btn btn-primary">APK</a>
+                                <a href="https://drive.google.com/open?id=1f3GHWvpu_gv4nUvrgEflAg7TLMThrUdX" class="btn btn-primary">Download APK</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
-                        <img class="card-img-top" src="res/img/android/dissertation.png" alt="Card image cap">
+                        <img class="card-img-top" src="res/img/android/dissertation.png" alt="A sample image of the Dissertation app">
                         <div class="card-body">
-                            <h6 class="card-title">Dissertation Prototype</h6>
+                            <h4 class="card-title">Dissertation Prototype</h4>
                             <p class="card-text">This is a prototype application developed for my dissertation. 
                                 It was produced as a result of the findings of my dissertation. <br> 
                                 My dissertation is explained below. </p>
@@ -137,11 +162,11 @@
 
                 <div class="cardout">
                     <div class="card border-primary mb-3" style="width: 14rem;">
-                        <img class="card-img-top" src="res/img/android/mp3-player.png" alt="Card image cap">
+                        <img class="card-img-top" src="res/img/android/mp3-player.png" alt="A sample image of the MP3 Player app">
                         <div class="card-body">
-                            <h6 class="card-title">MP3 Player</h6>
+                            <h4 class="card-title">MP3 Player</h4>
                             <p class="card-text">A simple MP3 Player: it plays and stops a song, as well as supporting notification functionality. </p>
-                            <a href="https://drive.google.com/open?id=1mCHu9T5qn5AED9oS3L49KEqcQJV4QUFA" class="btn btn-primary">APK</a>
+                            <a href="https://drive.google.com/open?id=1mCHu9T5qn5AED9oS3L49KEqcQJV4QUFA" class="btn btn-primary">Download APK</a>
                         </div>
                     </div>
                 </div>
@@ -149,24 +174,24 @@
             
             <hr>
 
-            <h4 id="list-item-web-dev">Web Development</h4>
+            <h2 class="section-header" id="list-item-web-dev">Web Development</h2>
             <p> I have a lot of experience with PHP, JavaScript, HTML, CSS and MySQL. 
                 I led a very successful group project where a web-tool was developed for the University. </p>
 
-                <img src="res/img/group-project/gp-ex-1.jpg" class="img-fluid" alt="Responsive image">
+                <img src="res/img/group-project/gp-ex-1.jpg" class="img-fluid" alt="A screenshot of the overview section of my second year project">
 
                 <p> The site is designed for Food Science students, especially those in their penultimate year. 
                     Students can see lists of potential jobs, as well as use an online tool to discover jobs that match their skills.  </p>
 
-                <img src="res/img/group-project/gp-ex-2.jpg" class="img-fluid" alt="Responsive image">
+                <img src="res/img/group-project/gp-ex-2.jpg" class="img-fluid" alt="A screenshot of the skills section of my second year project">
 
                 <p> The site was built to match the theme of the University and be completely responsive. </p>
 
-                <img src="res/img/group-project/gp-ex-3.jpg" class="img-fluid" alt="Responsive image">
+                <img src="res/img/group-project/gp-ex-3.jpg" class="img-fluid" alt="A screenshot of my second year project on mobile">
 
                 <p> It interfaces with a MySQL database, giving the admin the ability to easily modify all elements of the database without having to use SQL.  </p>
 
-                <img src="res/img/group-project/gp-ex-4.jpg" class="img-fluid" alt="Responsive image">
+                <img src="res/img/group-project/gp-ex-4.jpg" class="img-fluid" alt="A screenshot of the database section of my second year project">
 
                 <div class="d-flex justify-content-center">
                     <a href="https://github.com/alexhambley/grp" class="btn btn-primary" role="button" style="margin-right: 15px">View on GitHub</a>
@@ -174,27 +199,27 @@
                 </div>
                 <hr>
 
-                <h4 id="list-item-infovis">Data Science and InfoVis</h4>
+                <h2 class="section-header" id="list-item-infovis">Data Science and InfoVis</h2>
                 <p> I am experienced in handling very large data sets and constructing accurate and practical visualisations.
                     I have a lot of experience with R; especially the tidyverse library. 
                     In particular, I'm experienced in functional programming with purrr, various data transforming 
                     techniques with dplyr, and plotting with ggplot2. </p>
 
-                <h5>Some Trivial Examples of Visualisations:</h5>
+                <h3>Some Trivial Examples of Visualisations:</h3>
                 <p>A scatter plot with a local polynomial regression model:</p>
-                <img src="res/img/infovis/ex1.jpg" class="img-fluid" alt="Responsive image" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                <img src="res/img/infovis/ex1.jpg" class="img-fluid" alt="Capture rate plotted against base values. Shows a downwards trend." style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
                 <p>A stacked area graph with generational data encoded as colour:</p>
-                <img src="res/img/infovis/ex2.jpg" class="img-fluid" alt="Responsive image" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                <img src="res/img/infovis/ex2.jpg" class="img-fluid" alt="A stacked area graph showing the most frequent stat ranges" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
                 <p>A parallel coordinates graph with generational data encoded as colour: </p>
-                <img src="res/img/infovis/ex3.jpg" class="img-fluid" alt="Responsive image" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                <img src="res/img/infovis/ex3.jpg" class="img-fluid" alt="A parallel coordinates graph showing the distribution of stats" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
                 <hr>
 
-                <h4 id="list-item-hci-sr">HCI and Social Robotics</h4>
-                <h5> Dissertation </h5>
+                <h2 class="section-header" id="list-item-hci-sr">HCI and Social Robotics</h2>
+                <h3> Dissertation </h3>
                 <div class="row">
                     <div class="col-sm-auto">
                         <div class="card border-primary mb-3" style="width: 10rem;">
-                                <img class="card-img-top" src="res/img/android/dissertation.png" alt="Card image cap">  
+                                <img class="card-img-top" src="res/img/android/dissertation.png" alt="A screenshot of my dissertation prototype">  
                         </div>
                     </div>
                     <div class="col">
@@ -216,31 +241,25 @@
                     </div>
                 </div>
 
-                <h5> Ubiquitous Computing </h5>
-                <div class="row">
-                    <div class="col">
-                            <p> Another one of my major HCI projects was a "Smart Ball". This ball contains a six-axis MEMS 
-                                accelerometer and gyroscope which tracks the ball's throws, catches and spins. I wrote an 
-                                algorithm to make inferences on this data, such as how high the ball was thrown, or how much 
-                                of a spin was placed on the ball. </p>
-                            <p> The context of the project was one focused on assisting users that had accessibility issues, 
-                                such as those recovering from hand injuries. The ball attemptedd to gamily the recovery process 
-                                through the use of psychological principles such as positive reinforcement. For example, the 
-                                ball stores the points total for a session of successful catches and spins, and a user can 
-                                see how their progress improves over time. The ball also supports a two-player implementation 
-                                of the game "Hot Potato". </p>
-                            <figure class="figure">
-                                <div style="text-align: center">
-                                    <img src="res/img/robot-hci/ub-1.jpg" class="figure-img img-fluid rounded" alt="Image of the ball with some of the components visable inside." style="width: 50%">
-                                    <figcaption class="figure-caption">Image of the ball during the development stage, with some of the components visable inside. </figcaption>
-                                </div>
-                            </figure>
+                <h3> Ubiquitous Computing </h3>
+                <p> Another one of my major HCI projects was a "Smart Ball". This ball contains a six-axis MEMS 
+                    accelerometer and gyroscope which tracks the ball's throws, catches and spins. I wrote an 
+                    algorithm to make inferences on this data, such as how high the ball was thrown, or how much 
+                    of a spin was placed on the ball. </p>
+                <p> The context of the project was one focused on assisting users that had accessibility issues, 
+                    such as those recovering from hand injuries. The ball attemptedd to gamily the recovery process 
+                    through the use of psychological principles such as positive reinforcement. For example, the 
+                    ball stores the points total for a session of successful catches and spins, and a user can 
+                    see how their progress improves over time. The ball also supports a two-player implementation 
+                    of the game "Hot Potato". </p>
+                <figure class="figure">
+                    <div style="text-align: center">
+                        <img src="res/img/robot-hci/ub-1.jpg" class="figure-img img-fluid rounded" alt="Image of the ball with some of the components visable inside." style="width: 50%">
+                        <figcaption class="figure-caption">Image of the ball during the development stage, with some of the components visable inside. </figcaption>
                     </div>
+                </figure>
             
-                </div>
-
-                <h5> Social Robotics </h5>
-                
+                <h3> Social Robotics </h3>    
                 <figure class="figure">
                     <div style="text-align: center">
                         <img src="res/img/robot-hci/r-group.jpg" class="figure-img img-fluid rounded" alt="Picture of everyone who attended the robotics event" style="width: 70%">
@@ -255,10 +274,10 @@
 
                 <div class="row">
                     <div class="col" style="text-align: center">
-                        <img class="img-fluid rounded" src="res/img/robot-hci/r-ram.jpg" style="width: 70%">  
+                        <img class="img-fluid rounded" src="res/img/robot-hci/r-ram.jpg" alt="One of the robots in the University of Twente's Robotics and Mechatronics lab." style="width: 70%">  
                     </div>
                     <div class="col" style="text-align: center">
-                        <img class="img-fluid rounded" src="res/img/robot-hci/r-pepper.jpg" style="width: 70%">  
+                        <img class="img-fluid rounded" src="res/img/robot-hci/r-pepper.jpg" alt="A social robot called Pepper." style="width: 70%">  
                     </div>
                 </div>
             </div>
