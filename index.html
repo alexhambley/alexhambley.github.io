@@ -23,81 +23,99 @@
                             <div class="card-body">
                                 <h2 class="card-title name">Alexander Hambley</h2>
                                 <p class="card-text"> 
-                                    Hi, I'm a Web Developer intern at HeX Productions, and a first-class Computer Science 
-                                    graduate from the University of Nottingham. </p>
+                                    Hi, I'm an MSc student at the University of Manchester, studying Advanced Computer 
+                                    Science with a focus on Digital Biology. </p>
                                 <p class="card-text"> 
-                                    I'm soon to be an MSc Systems Software Engineering student at UCL. </p>
-                                <a href="alexhambley-cv.html" class="btn btn-primary">HTML CV</a>
+                                    I was an intern at HeX Productions, and I am a first-class Computer Science 
+                                    graduate from the University of Nottingham. </p>
+                                <!-- <a href="alexhambley-cv.html" class="btn btn-primary">HTML CV</a> -->
                                 <a href="https://www.linkedin.com/in/alexanderhambley/" class="btn btn-info">LinkedIn</a>
                             </div>
                             <div id="list" class="list-group list-group-flush">
+                                <a class="list-group-item list-group-item-action" href="#list-item-curr-proj">Current Projects</a>
                                 <a class="list-group-item list-group-item-action" href="#list-item-android">Android Development</a>
                                 <a class="list-group-item list-group-item-action" href="#list-item-web-dev">Web Development</a>
                                 <a class="list-group-item list-group-item-action" href="#list-item-infovis">Data Science and InfoVis</a>
                                 <a class="list-group-item list-group-item-action" href="#list-item-hci-sr">HCI and Social Robotics</a>
-                                <a class="list-group-item list-group-item-action" href="#list-item-java-c">Java and C</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <h2 class="section-header" id="list-item-android">Android Development</h2>
-                    <p> I'm familiar with mobile development methodologies, design patterns, power management and core Android 
-                        components, including activities, fragments, services, broadcast receivers and content providers </p>
-                    <h3> Apps Developed: </h3>
-                    <div class="row">
-                        <div class="cardout">
-                            <div class="card border-primary mb-3" style="width: 14rem;">
-                                <img class="card-img-top" src="res/img/android/finger-painter.png" alt="A sample image of the Finger Painter app">
-                                <div class="card-body">
-                                    <h4 class="card-title">Finger Painter</h4>
-                                    <p class="card-text">This application is essentially Paint, but for Android. It allows the use of custom colours and various shapes. </p>
-                                    <a href="https://drive.google.com/open?id=11VdiiBw5sKIdfjFwm2oVqfCB4w0qwJQY" class="btn btn-primary">Download APK</a>
-                                </div>
-                            </div>
+                    <h2 class="section-header" id="list-item-curr-proj">Current Projects</h2>
+                    <div>
+                        <h3> MacOS Pokedex App </h3>
+                        <p> I'm currently working on a little Pokedex app for MacOS. It is built on Electron, and uses APIs such as csvtojson. 
+                            It also uses the PhotonKit UI library. </p>
+                        <img src="res/img/pokedex/ex1.jpg" class="img-fluid" alt="A screenshot of the Pokedex app showing the first 8 pokemon." style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                        <p> The app allows for users to search the entire Pokedex. Users can also choose to only show the pokemon from specific generations:</p>
+                        <img src="res/img/pokedex/ex2.jpg" class="img-fluid" alt="A screenshot of the Pokedex app showing the pokemon returned for the search 'char'" style="width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;">                        
+                        <p> The app is in development but can be found on GitHub:</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/alexhambley/pokedexpro" class="btn btn-info">GitHub Link for Pokedex App</a>
                         </div>
+                        <hr>
+                    </div>
 
-                        <div class="cardout">
-                            <div class="card border-primary mb-3" style="width: 14rem;">
-                                <img class="card-img-top" src="res/img/android/runtracker.png" alt="A sample image of the Running Tracker app">
-                                <div class="card-body">
-                                    <h4 class="card-title">RunTracker</h4>
-                                    <p class="card-text">Similar to Strava, the app will track a user's walk or run. 
-                                        The apps provides the user with the ability to see the run plotted on Google Maps, and in graph format. 
-                                        <br> 
-                                        The users can control how often the GPS is polled.</p>
-                                    <a href="https://drive.google.com/open?id=1EWSkAnVdPReXmsb5_ywc2sodpYLy5-91" class="btn btn-primary">Download APK</a>                         
+                    <h2 class="section-header" id="list-item-android">Android Development</h2>
+                    <div>
+                        <p> I'm familiar with mobile development methodologies, design patterns, power management and core Android 
+                            components, including activities, fragments, services, broadcast receivers and content providers </p>
+                        <h3> Apps Developed: </h3>
+                        <div class="row">
+                            <div class="cardout">
+                                <div class="card border-primary mb-3" style="width: 14rem;">
+                                    <img class="card-img-top" src="res/img/android/finger-painter.png" alt="A sample image of the Finger Painter app">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Finger Painter</h4>
+                                        <p class="card-text">This application is essentially Paint, but for Android. It allows the use of custom colours and various shapes. </p>
+                                        <a href="https://drive.google.com/open?id=11VdiiBw5sKIdfjFwm2oVqfCB4w0qwJQY" class="btn btn-primary">Download APK</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="cardout">
-                            <div class="card border-primary mb-3" style="width: 14rem;">
-                                <img class="card-img-top" src="res/img/android/recipe-book.png" alt="A sample image of the Recipe Book app">
-                                <div class="card-body">
-                                    <h4 class="card-title">Recipe Book</h4>
-                                    <p class="card-text">This application uses a content provider to pull data from a SQLite database. </p>
-                                    <a href="https://drive.google.com/open?id=1f3GHWvpu_gv4nUvrgEflAg7TLMThrUdX" class="btn btn-primary">Download APK</a>
+
+                            <div class="cardout">
+                                <div class="card border-primary mb-3" style="width: 14rem;">
+                                    <img class="card-img-top" src="res/img/android/runtracker.png" alt="A sample image of the Running Tracker app">
+                                    <div class="card-body">
+                                        <h4 class="card-title">RunTracker</h4>
+                                        <p class="card-text">Similar to Strava, the app will track a user's walk or run. 
+                                            The apps provides the user with the ability to see the run plotted on Google Maps, and in graph format. 
+                                            <br> 
+                                            The users can control how often the GPS is polled.</p>
+                                        <a href="https://drive.google.com/open?id=1EWSkAnVdPReXmsb5_ywc2sodpYLy5-91" class="btn btn-primary">Download APK</a>                         
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="cardout">
-                            <div class="card border-primary mb-3" style="width: 14rem;">
-                                <img class="card-img-top" src="res/img/android/dissertation.png" alt="A sample image of the Dissertation app">
-                                <div class="card-body">
-                                    <h4 class="card-title">Dissertation Prototype</h4>
-                                    <p class="card-text">This is a prototype application developed for my dissertation. 
-                                        It was produced as a result of the findings of my dissertation. <br> 
-                                        My dissertation is explained below. </p>
+                            <div class="cardout">
+                                <div class="card border-primary mb-3" style="width: 14rem;">
+                                    <img class="card-img-top" src="res/img/android/recipe-book.png" alt="A sample image of the Recipe Book app">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Recipe Book</h4>
+                                        <p class="card-text">This application uses a content provider to pull data from a SQLite database. </p>
+                                        <a href="https://drive.google.com/open?id=1f3GHWvpu_gv4nUvrgEflAg7TLMThrUdX" class="btn btn-primary">Download APK</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="cardout">
-                            <div class="card border-primary mb-3" style="width: 14rem;">
-                                <img class="card-img-top" src="res/img/android/mp3-player.png" alt="A sample image of the MP3 Player app">
-                                <div class="card-body">
-                                    <h4 class="card-title">MP3 Player</h4>
-                                    <p class="card-text">A simple MP3 Player: it plays and stops a song, as well as supporting notification functionality. </p>
-                                    <a href="https://drive.google.com/open?id=1mCHu9T5qn5AED9oS3L49KEqcQJV4QUFA" class="btn btn-primary">Download APK</a>
+                            <div class="cardout">
+                                <div class="card border-primary mb-3" style="width: 14rem;">
+                                    <img class="card-img-top" src="res/img/android/dissertation.png" alt="A sample image of the Dissertation app">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Dissertation Prototype</h4>
+                                        <p class="card-text">This is a prototype application developed for my dissertation. 
+                                            It was produced as a result of the findings of my dissertation. <br> 
+                                            My dissertation is explained below. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardout">
+                                <div class="card border-primary mb-3" style="width: 14rem;">
+                                    <img class="card-img-top" src="res/img/android/mp3-player.png" alt="A sample image of the MP3 Player app">
+                                    <div class="card-body">
+                                        <h4 class="card-title">MP3 Player</h4>
+                                        <p class="card-text">A simple MP3 Player: it plays and stops a song, as well as supporting notification functionality. </p>
+                                        <a href="https://drive.google.com/open?id=1mCHu9T5qn5AED9oS3L49KEqcQJV4QUFA" class="btn btn-primary">Download APK</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
