@@ -14,8 +14,8 @@ Before my PhD at The University of Manchester, I achieved a first-class Computer
 
 As I approach the end of my PhD, I am seeking research opportunities at the intersection of HCI and AI.
 
+You can contact me on <a href="https://twitter.com/alexhambley1" target="_blank">Twitter,</a> <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">LinkedIn,</a> or through email: alexander &lt;dot&gt; hambley &lt;at&gt; manchester &lt;dot&gt; ac &lt;dot&gt; uk.
+
 Interests
 ======
 Human-Computer Interaction, AI, Machine Learning, Unsupervised Learning, Web Accessibility.
-
-You can contact me on <a href="https://twitter.com/alexhambley1" target="_blank">Twitter,</a> <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">LinkedIn,</a> or through email: alexander &lt;dot&gt; hambley &lt;at&gt; manchester &lt;dot&gt; ac &lt;dot&gt; uk.
