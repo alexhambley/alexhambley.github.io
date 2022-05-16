@@ -36,8 +36,8 @@ Experience
   * Skills: Advanced independent and collaborative working skills. Problem solving. Interpersonal skills.
 
 * <i>June 2018 - August 2018</i>. Research Software Developer (Intern). The University of Twente (UT)
-* Impact: Developed prototype social robots at the UT DesignLab to assist children with ASD. Robots would vary facial movements to mimic human faces.
-* Skills: Demonstrated ability to think critically and to communicate effectively with a diverse group of people. Displayed ability to create rapid, effective, low and high fidelity prototypes.
+  * Impact: Developed prototype social robots at the UT DesignLab to assist children with ASD. Robots would vary facial movements to mimic human faces.
+  * Skills: Demonstrated ability to think critically and to communicate effectively with a diverse group of people. Displayed ability to create rapid, effective, low and high fidelity prototypes.
   
 Awards
 ======
@@ -54,19 +54,19 @@ Professional Activities and Reviewing
 
 Publications
 ======
-  <ul>{% for post in site.publications.reverse() %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks.reverse() %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
