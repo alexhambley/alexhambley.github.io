@@ -9,16 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
+A PDF version of my CV can be <a href="/files/cv.pdf">found here.</a>
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, University of Manchester, 2020 - 2023 (expected)
+  * PhD Thesis: Empirical web accessibility evaluation for blind web users.
+* B.S. in Computer Science, University of Nottingham, 2016 - 2019
+  * Dissertation: A study of the addictive nature of smartphones and social media.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Graduate Instructor
+  * University of Manchester
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 

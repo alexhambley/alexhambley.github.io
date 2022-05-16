@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hi, I'm Alex!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Hi, I'm Alex!
 
 I am a PhD researcher at The University of Manchester working at the boundary of HCI and AI. Thus far, my research has focused on designing, developing, and evaluating accessibility technologies for visually impaired users. Specifically, I am producing an unsupervised learning approach to cluster web pages by similarity, reducing the number of pages needed for automated and manual web accessibility evaluation. 
 
