@@ -13,17 +13,19 @@ A PDF version of my CV can be <a href="/files/cv.pdf">found here.</a>
 
 Education
 ======
-* Ph.D in Computer Science, University of Manchester, 2020 - 2023 (expected)
-  * PhD Thesis: Empirical web accessibility evaluation for blind web users.
-* B.S. in Computer Science, University of Nottingham, 2016 - 2019
-  * Dissertation: A study of the addictive nature of smartphones and social media.
+* <b>2020 - 2023 (expected)</b>. PhD in Computer Science, University of Manchester.
+  * PhD Thesis: <i>Empirical web accessibility evaluation for blind web users</i>.
+* <b>2016 - 2019</b>. BSc in Computer Science, University of Nottingham.
+  * First Class (76%)
+  * Dissertation: <i>A study of the addictive nature of smartphones and social media</i>.
 
 Work experience
 ======
-* Graduate Instructor
-  * University of Manchester
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* <b>January 2020 - Present</b>. Graduate Instructor, The University of Manchester
+  * <b>User Experience</b>: Marked and moderated coursework for over 150 students. Provided formative and summative feedback.
+  * <b>Database Systems</b>: Ran laboratory sessions for 30 students at a time. Assessed and moderated coursework for over 50 students. Presented formative and summative feedback.
+  * <b>Introduction to Programming II</b>: Coordinated focused laboratory sessions. Marked and moderated coursework. Assigned formative and summative feedback. Facilitated group work.
+  * <b>First Year Group Project</b>: Advised student projects. Provided formative feedback. Facilitated group work.
 
 * Fall 2015: Research Assistant
   * Github University
