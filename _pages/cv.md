@@ -14,9 +14,11 @@ A PDF version of my CV can be <a href="/files/cv.pdf" target="_blank">found here
 Education
 ======
 * <i>2020 - 2023 (expected)</i>. PhD in Computer Science, University of Manchester.
-  * PhD Thesis: <b>Empirical web accessibility evaluation for blind web users</b>.
+  * <b>PhD Thesis</b>: Empirical web accessibility evaluation for blind web users</b>.
 * <i>2016 - 2019</i>. BSc (Hons) in Computer Science. First Class Honours (76%). The University of Nottingham.
-  * Dissertation: <b>A study of the addictive nature of smartphones and social media</b>.
+  * <b>Dissertation</b>: A study of the addictive nature of smartphones and social media</b>.
+
+***
 
 Experience
 ======
@@ -38,11 +40,15 @@ Experience
 * <i>June 2018 - August 2018</i>. Research Software Developer (Intern). The University of Twente (UT).
   * Impact: Developed prototype social robots at the UT DesignLab to assist children with ASD. Robots would vary facial movements to mimic human faces.
   * Skills: Demonstrated ability to think critically and to communicate effectively with a diverse group of people. Displayed ability to create rapid, effective, low and high fidelity prototypes.
-  
+
+***
+
 Awards
 ======
-* <a href="/publication/2022-4-27">Best communication paper,</a> <a href="https://www.w4a.info/2022/" target="_blank">The 19th International Web for All Conference</a> (April, 2022)
-* Departmental Doctoral Studentship (University of Manchester) <i>January 2020 - Present</i>.
+* <a href="/publication/2022-4-27">Best communication paper</a>. <a href="https://www.w4a.info/2022/" target="_blank">The 19th International Web for All Conference</a>. <i>April 2022</i>
+* Departmental Doctoral Studentship (University of Manchester). <i>January 2020 - Present</i>.
+
+***
   
 Professional Activities and Reviewing
 ======
@@ -51,6 +57,8 @@ Professional Activities and Reviewing
 * Journal Peer Reviews:
   * ACM Transactions on the Web (TWEB): 2 Reviews in 2022.
   * ACM Transactions on Accessible Computing (TACCESS): 2021.
+
+***
 
 Volunteering
 ======
