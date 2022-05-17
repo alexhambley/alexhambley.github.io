@@ -14,9 +14,9 @@ A PDF version of my CV can be <a href="/files/cv.pdf" target="_blank">found here
 Education
 ======
 * <i>2020 - 2023 (expected)</i>. PhD in Computer Science, University of Manchester.
-  * <b>PhD Thesis</b>: Empirical web accessibility evaluation for blind web users</b>.
+  * <b>PhD Thesis</b>: Empirical web accessibility evaluation for blind web users.
 * <i>2016 - 2019</i>. BSc (Hons) in Computer Science. First Class Honours (76%). The University of Nottingham.
-  * <b>Dissertation</b>: A study of the addictive nature of smartphones and social media</b>.
+  * <b>Dissertation</b>: A study of the addictive nature of smartphones and social media.
 
 ***
 
