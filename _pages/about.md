@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD researcher at The University of Manchester working at the boundary of HCI and AI. Thus far, my research has focused on designing, developing, and evaluating accessibility technologies for visually impaired users. Specifically, I am producing an unsupervised learning approach to cluster web pages by similarity, reducing the number of pages needed for automated and manual web accessibility evaluation. 
+I am a PhD researcher at The University of Manchester working at the boundary of **Human-Computer Interaction and Machine Learning**. Thus far, my research has focused on **designing, developing, and evaluating accessibility technologies** for visually impaired users. Specifically, I am producing an **unsupervised learning approach to cluster web pages by similarity**, reducing the number of pages needed for automated and manual web accessibility evaluation. 
 
 Before my PhD at The University of Manchester, I achieved a first-class Computer Science degree from the University of Nottingham. In addition, I have strong software engineering skills gained through my degree and two software engineering internships: one focused on accessibility, the other on software engineering in a research context.
 

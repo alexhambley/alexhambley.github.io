@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -25,3 +29,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+gem "webrick", "~> 1.7"
