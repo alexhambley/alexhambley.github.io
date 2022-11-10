@@ -30,6 +30,11 @@ Education
 
 Experience
 ======
+* **Associate Lecturer in Computer Science**. The Open University.
+  <br>
+  September 2022 - Present. 
+  * **Algorithms, Data Structures and Computability**.
+
 * **Graduate Instructor**. The University of Manchester.
   <br>
   January 2020 - Present. 

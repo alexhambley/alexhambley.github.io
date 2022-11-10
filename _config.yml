@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Alex Hambley"
 title_separator          : "-"
 name                     : &name "Alex Hambley"
-description              : &description "HCI and AI PhD Researcher at The University of Manchester."
+description              : &description "Lecturer | HCI and AI PhD Researcher at The University of Manchester."
 url                      : https://alexhambley.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexhambley/alexhambley.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Alex Hambley"
   avatar           : "profile.png"
-  bio              : "HCI and AI PhD Researcher at The University of Manchester."
+  bio              : "Lecturer | HCI and AI PhD Researcher at The University of Manchester."
   location         : "Based in Manchester."
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
