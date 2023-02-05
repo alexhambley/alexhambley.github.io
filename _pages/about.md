@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Researcher at The University of Manchester working at the boundary of **Human-Computer Interaction** (HCI) and **applied machine learning**. As I finish my PhD, I am seeking Data Scientist roles or research opportunities at the intersection of HCI and AI.
+I am a PhD Researcher at The University of Manchester working at the boundary of **Human-Computer Interaction** (HCI) and **applied machine learning**. As I finish my PhD, I am seeking Software Engineering or Data Scientist opportunities. 
 
 I am an Associate Lecturer at the Open University on the **Algorithms, Data Structures and Computability** course. I am also a Graduate Instructor for **User Experience** at the University of Manchester. 
 
@@ -20,4 +20,4 @@ You can contact me on <a href="https://www.linkedin.com/in/alexanderhambley/" ta
 
 Interests
 ======
-Data Science, Human-Computer Interaction, AI, Machine Learning, Unsupervised Learning, Web Accessibility.
+Software Engineering, Data Science, Human-Computer Interaction, AI, Machine Learning, Unsupervised Learning, Web Accessibility.
