@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a **PhD Researcher** in the <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">Interaction Analysis and Modelling laboratory</a> at the University of Manchester. My research focuses on web accessibility technologies for visually impaired users. Specifically, I am producing an unsupervised machine learning approach that clusters web pages by similarity, significantly improving web accessibility evaluation time.
+I am a **PhD Researcher** in the <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">Interaction Analysis and Modelling laboratory</a> at the University of Manchester. My research is in Human-Centered AI, particularly in the context of hybrid interaction, focusing on web accessibility technologies for visually impaired users. Specifically, I am producing an unsupervised machine learning approach that clusters web pages by similarity to assist accessibility auditors and significantly improve web accessibility evaluation time.
 
 Before my PhD at The University of Manchester, I achieved a First Class BSc (Hons) in Computer Science from the University of Nottingham.
 
@@ -18,4 +18,4 @@ You can contact me on <a href="https://www.linkedin.com/in/alexanderhambley/" ta
 
 Interests
 ======
-Human-Computer Interaction, Web Accessibility, Data Science, AI, Machine Learning, Unsupervised Learning.
+Human-Computer Interaction (HCI), Human-Centered AI, Human-Data Interaction, Web Accessibility, Data Science.
