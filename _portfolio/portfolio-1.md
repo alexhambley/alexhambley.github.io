@@ -1,6 +1,6 @@
 ---
 title: "Career Guide: A Best-Project Nominee"
-excerpt: "A web application providing university students with career suggestions. The project was nominated for best project, and is used in numerous universities across the country.<br><img src='/images/portfolio/group_project.jpg' alt='A screenshot of a website. The page shown is a portal to admin activity.'>"
+excerpt: "A web application providing university students with career suggestions. The project was nominated for best project, and is used in numerous universities across the country.</p><p><img src='/images/portfolio/group_project.jpg' alt='A screenshot of a website. The page shown is a portal to admin activity.'>"
 collection: portfolio
 ---
 
