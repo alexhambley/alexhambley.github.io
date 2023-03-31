@@ -1,6 +1,6 @@
 ---
 title: "SmartBall: A Ubiquitous Computing Project"
-excerpt: "A &quot;SmartBall&quot; designed to gamify a patient's recovery of hand injuries.<br/><img src='/images/portfolio/smartball.jpg' alt='A ball with a Raspberry Pi inside. In the background is a laptop displaying graphs.'>"
+excerpt: "A &quot;SmartBall&quot; designed to gamify a patient's recovery of hand injuries.<br><img src='/images/portfolio/smartball.jpg' alt='A ball with a Raspberry Pi inside. In the background is a laptop displaying graphs.'>"
 collection: portfolio
 ---
 
