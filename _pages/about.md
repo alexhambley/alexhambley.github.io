@@ -14,7 +14,7 @@ Before my PhD at The University of Manchester, I achieved a First Class BSc (Hon
 
 I am also an **Associate Lecturer** at the Open University on the <a href="https://www.open.ac.uk/courses/modules/m269" target="_blank">Algorithms, Data Structures and Computability</a> course, and a postgraduate teaching assistant for several modules at the University of Manchester, including **Programming**, **User Experience** and **Databases**.
 
-You can contact me on <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">LinkedIn,</a> <a href="https://twitter.com/alexhambley1" target="_blank">Twitter</a>, or through email: alexander &lt;dot&gt; hambley &lt;at&gt; manchester &lt;dot&gt; ac &lt;dot&gt; uk.
+You can contact me on <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">LinkedIn</a> or through email: alexander &lt;dot&gt; hambley &lt;at&gt; manchester &lt;dot&gt; ac &lt;dot&gt; uk.
 
 Interests
 ======
