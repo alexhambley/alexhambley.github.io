@@ -20,7 +20,7 @@ Before my PhD at The University of Manchester, I achieved a First Class BSc (Hon
 I am an **Associate Lecturer** at the Open University on the <a href="https://www.open.ac.uk/courses/modules/m269" target="_blank">Algorithms, Data Structures and Computability</a> course. 
 
 ## Past Experience
-Previously, I was a full-stack Software Engineer at <a href="https://www.horlix.com" target="_blank">HeX Productions</a>, a web accessibility consultancy based in Nottingham, and a Research Software Engineer at  <a href="https://www.utwente.nl/en/" target="_blank">The University of Twente</a>, working on social robot prototypes. I have alsotaught on several modules at the University of Manchester, including **Programming**, **User Experience** and **Databases**. 
+Previously, I was a full-stack Software Engineer at <a href="https://www.horlix.com" target="_blank">HeX Productions</a>, a web accessibility consultancy based in Nottingham, and a Research Software Engineer at  <a href="https://www.utwente.nl/en/" target="_blank">The University of Twente</a>, working on social robot prototypes. I have also taught on several modules at the University of Manchester, including **Programming**, **User Experience** and **Databases**. 
 
 You can contact me on <a href="https://www.linkedin.com/in/alexanderhambley/" target="_blank">LinkedIn</a> or through email: *A &lt;dot&gt; Hambley &lt;at&gt; leeds &lt;dot&gt; ac &lt;dot&gt; uk*.
 
